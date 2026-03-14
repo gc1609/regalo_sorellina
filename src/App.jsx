@@ -25,7 +25,7 @@ function App() {
       }
 
       {view === "video" &&
-        <FinalVideo urlVideo="/video/regalo.mp4" />
+        <FinalVideo urlVideo="/regalo_sorellina/video/regalo.mp4" />
       }
 
     </div>

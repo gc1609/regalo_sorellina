@@ -12,7 +12,7 @@ function SnakeGame({ onWin }) {
   const [won, setWon] = useState(false);
   const [countdown, setCountdown] = useState(10);
 
-  const winSound = useRef(new Audio("/audio/win.mp3"));
+  const winSound = useRef(new Audio("/regalo_sorellina/audio/win.mp3"));
 
   const resetGame = () => {
     setSnake([[8, 8]]);
@@ -153,7 +153,7 @@ function SnakeGame({ onWin }) {
           <div className="modalCard">
             <h2>🎉 Complimenti! 🎉</h2>
 
-            <p>Finalmente hai completato la missione scopri regalo dopo una settimana.</p>
+            <p>Finalmente hai completato la missione.</p>
 
             <p>Ora puoi ricevere il tuo regalo (spero che ti piaccia)</p>
 
